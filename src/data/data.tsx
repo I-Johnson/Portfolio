@@ -295,13 +295,13 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'July 2021 - August 2022',
+    location: 'Austin TX, USA',
+    title: 'Junior Python Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Queried MYSQL database queries from Python using Python-MYSQL Connector and MYSQL Database package to get information. 
+        Analyzed the SQL scripts and designed the solution to develop a custom ETL pipeline by using Python        
       </p>
     ),
   },
