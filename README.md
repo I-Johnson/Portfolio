@@ -2,6 +2,6 @@
 
 ![](resume.jpg?raw=true 'Resume Website')
 
-## Working on DNS modification || Sorry for inconvenience
+## Domain Name Changed || Sorry for inconvenience
 
-### View a [live demo here.](https://portfolio-website-drab-five.vercel.app/)
+### Website [access here.](https://www.i-johnson.live/)
