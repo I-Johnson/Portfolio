@@ -196,15 +196,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1', // Project 1
-    description: 'Give a short description of your project here.',
-    url: 'https://www.johnson.com.np/',
+    title: 'Decentralized Internet', // Project 1
+    description: 'Article I wrote after binging Silicon Valley TV series in 2020',
+    url: 'https://www.linkedin.com/pulse/decentralized-internet-johnson-subedi/?trackingId=pd%2BPQ8iPQmSpNGuvcZx3lg%3D%3D',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2', // Project 2
-    description: 'Exploratory Data Analysis on Stackoverflow Developer Survey 2020.',
-    url: 'https://www.kaggle.com/code/johnsonsubedi/sof-developers-survey-2020/notebook',
+    title: 'Regression', // Project 2
+    description: 'Applying different regression on the data available on the internet.',
+    url: 'https://github.com/I-Johnson/Regression',
     image: porfolioImage2,
   },
   {
@@ -232,15 +232,15 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7', // Project 7
-    description: 'Give a short description of your project here.',
-    url: 'https://www.johnson.com.np/',
+    title: 'Exploratory Data Analysis', // Project 7
+    description: 'Stackoverflow Developer Survey 2020 and 2018 data visaualization using Python and R',
+    url: 'https://www.kaggle.com/code/johnsonsubedi/sof-developers-survey-2020/notebook',
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8', // Project 8
-    description: 'Give a short description of your project here.',
-    url: 'https://www.johnson.com.np/',
+    title: 'Finance.py', // Project 8
+    description: 'Using Python for Finance. Visualizing and manipulating the stocks data on internet and trying to find any insights that might be helpful.',
+    url: 'https://github.com/I-Johnson/Finance.py',
     image: porfolioImage8,
   },
   {
