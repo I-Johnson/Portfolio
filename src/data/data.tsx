@@ -106,7 +106,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or I love listening to Naval Ravikant`,
+  to use or feel most comfortable with, I love listening to Naval Ravikant, Chamath Palihapitiya, and All in Podcast.`,
   aboutItems: [
     {label: 'Location', text: 'Danville, KY', Icon: MapIcon},
     {label: 'Age', text: '19', Icon: CalendarIcon},
@@ -269,16 +269,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'August 2022',
+    date: 'August 2022 - present',
     location: 'Centre College',
     title: 'Bachelors of Science in Computer Science',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>Learning the fundamentals of computer science like Systems Programming, Data Structures and Computer Architecture.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2022 - present',
+    location: 'Centre College',
+    title: 'Mathematics and Data Science',
+    content: <p>Core math and data science concepts such as Calculus, Statistical Modeling, Data Analytics, and Probability Theory.</p>,
   },
 ];
 
@@ -301,7 +301,7 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         Queried MYSQL database queries from Python using Python-MYSQL Connector and MYSQL Database package to get information. 
-        Analyzed the SQL scripts and designed the solution to develop a custom ETL pipeline by using Python        
+        Analyzed SQL scripts and designed the solution to develop a custom ETL pipeline by using Python.        
       </p>
     ),
   },
