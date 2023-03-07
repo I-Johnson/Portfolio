@@ -105,8 +105,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, I love listening to Naval Ravikant, Chamath Palihapitiya, and All in Podcast.`,
+  description: `I am interested in learning about VC, investements, and HFTs.
+                I love playing poker, watching Formula-1, listening to Naval Ravikant, Chamath Palihapitiya, and All in Podcast.`,
   aboutItems: [
     {label: 'Location', text: 'Danville, KY', Icon: MapIcon},
     {label: 'Age', text: '19', Icon: CalendarIcon},
@@ -278,11 +278,22 @@ export const education: TimelineItem[] = [
     date: 'August 2022 - present',
     location: 'Centre College',
     title: 'Mathematics and Data Science',
-    content: <p>Core math and data science concepts such as Calculus, Statistical Modeling, Data Analytics, and Probability Theory.</p>,
+    content: <p>Core math and data science concepts such as Calculus, Statistical Modeling, Applied Machine Learning, and Probability Theory.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
+  {
+    date: 'Feburary 2023 - Present',
+    location: 'Centre College',
+    title: 'Data Science Intern',
+    content: (
+      <p>
+        Applying PCA to identify correlations between pitcher variables and pitch type and utilizing multinomial regression model with PCA results with Pitcher's name.
+        Analyzing 1086 rows of baseball data with more than 162 variables and conducting statistical analysis of baseball team's data to gain insights on pitcher performance.
+      </p>
+    ),
+  },
   {
     date: 'August 2022 - Present',
     location: 'Centre Teaching and Learning(CTL)',
@@ -297,11 +308,11 @@ export const experience: TimelineItem[] = [
   {
     date: 'July 2021 - August 2022',
     location: 'Austin TX, USA',
-    title: 'Junior Python Developer',
+    title: 'Software Development Intern',
     content: (
       <p>
-        Queried MYSQL database queries from Python using Python-MYSQL Connector and MYSQL Database package to get information. 
-        Analyzed SQL scripts and designed the solution to develop a custom ETL pipeline by using Python.        
+        Queried MYSQL database using Python scripts, we retrived over 70,000 records of customer data for analysis and found our customer base grew 18% in the past year.
+        Increased efficiency by 30% by building a custom ETL pipeline using Python by analyzing existing SQL scripts resulting in faster processing times and enhanced productivity.       
       </p>
     ),
   },
