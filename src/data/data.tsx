@@ -105,11 +105,11 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am interested in learning about VC, investements, and HFTs.
+  description: `I am interested in learning about Software Engineering, Financial Markets, and investments.
                 I love playing poker, watching Formula-1, listening to Naval Ravikant, Chamath Palihapitiya, and All in Podcast.`,
   aboutItems: [
-    {label: 'Location', text: 'Danville, KY', Icon: MapIcon},
-    {label: 'Age', text: '19', Icon: CalendarIcon},
+    {label: 'Location', text: 'Austin, TX', Icon: MapIcon},
+    {label: 'Age', text: '20', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Nepali', Icon: FlagIcon},
     {label: 'Interests', text: 'Computers, Movies, Soccer', Icon: SparklesIcon},
     {label: 'Study', text: 'Centre College', Icon: AcademicCapIcon},
@@ -160,15 +160,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 5,
+        level: 8,
       },
       {
         name: 'C++',
-        level: 3,
+        level: 7,
       },
       {
         name: 'Golang',
-        level: 4,
+        level: 3,
       },
     ],
   },
@@ -177,15 +177,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Python',
-        level: 8,
+        level: 9,
       },
       {
         name: 'R',
-        level: 6,
+        level: 7,
       },
       {
         name: 'SQL',
-        level: 3,
+        level: 8,
       },
     ],
   },
@@ -284,30 +284,52 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Feburary 2023 - Present',
-    location: 'Centre College',
+    date: 'July 2023 - Present',
+    location: 'Valvoline',
     title: 'Data Science Intern',
     content: (
       <p>
-        Applying PCA to identify correlations between pitcher variables and pitch type and utilizing multinomial regression model with PCA results with Pitcher's name.
-        Analyzing 1086 rows of baseball data with more than 162 variables and conducting statistical analysis of baseball team's data to gain insights on pitcher performance.
+      Developed Python model, estimating Remaining Use Life(RUL) of tire with 97% accuracy, resulting in 30% reduction in unplanned tire replacements, enhancing efficiency and elevating customer satisfaction.
+      Designed a full-stack architecture reducing data interaction latency by 25%, using Flask with SQLAlchemy for the smooth flow from back-end to front-end with React.
       </p>
     ),
   },
   {
-    date: 'August 2022 - Present',
-    location: 'Centre Teaching and Learning(CTL)',
-    title: 'Technical Assistant',
+    date: 'March 2023 - June 2023',
+    location: 'ReGoods',
+    title: 'Software Engineering Intern',
     content: (
       <p>
-        Working at Media Lab and Experimental classroom at CTL. Learning and understanding the 3D printing systems, Oculus VR headsets and other 
-        hardware in the Media lab. Assisting students and faculty with media projects. 
+        Implemented RESTful APIs, orchestrated a CI/CD pipeline using GitHub actions, ensuring smooth dataflow between the frontend, backend, and deployment optimizing workflow and website loading time by 20%.
+        Managed and optimized cloud infrastructure on AWS, using EC2, S3, and RDS to support the application, saving the cost of $1800 per month in operational expenses.
+      </p>
+    ),
+  },
+  {
+    date: 'Feburary 2023 - Present',
+    location: 'Centre College',
+    title: 'Data Science Researcher',
+    content: (
+      <p>
+        Implemented PCA and developed personalized multinomial logistic regression models for individual pitchers, achieving an accuracy of 95.6% and eliminating the need for manual pitch tagging.
+        Led a 3-person team on a data-driven dashboard using Python and R that empowers the baseball team with visualizations to analyze practice sessions, and game data, and strategize effectively.
+</p>
+    ),
+  },
+  {
+    date: 'Janaury 2021 - Present',
+    location: 'AuraED',
+    title: 'Co-Founder',
+    content: (
+      <p>
+      Co-founded a non-profit organization that mentors finance, technology, and automation impacting 8,000+ underprivileged children in rural Nepal.
+      Designed, and developed the curriculum of IPO investments, and Web Development and fundraised $11,000 to build computer labs in rural villages.
       </p>
     ),
   },
   {
     date: 'July 2021 - August 2022',
-    location: 'Austin TX, USA',
+    location: 'UnikPoint',
     title: 'Software Development Intern',
     content: (
       <p>
@@ -324,16 +346,16 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
-    {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
+    // {
+    //   name: 'John Doe',
+    //   text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+    //   // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+    // },
+    // {
+    //   name: 'Jane Doe',
+    //   text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+    //   // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    // },
     {
       name: 'Muchiri Kawai',
       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
